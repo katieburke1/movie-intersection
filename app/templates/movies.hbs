@@ -1,7 +1,20 @@
 <h2>List of Movies</h2>
-<ul>
-  {{#each model as |movie|}}
-    <li>{{movie}}</li>
-  {{/each}}
-</ul>
-{{outlet}}
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Movie Name</th>
+      <th>Movie Year</th>
+      <th>Imdb Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each model as |movie|}}
+      <tr>
+        <td>{{movie}}</td>
+        <td>{{movie}}</td>
+        <td>{{movie}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
