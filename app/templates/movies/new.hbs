@@ -1,9 +1,20 @@
 <div class=margin>
   <h4> New Movie </h4>
-    <h4> Name </h4>
-    {{input type="text" value=model.title size="50"}}
-    <h4> Year </h4>
-    {{input type="text" value="hello" size="50"}}
-    <h4> Score </h4>
-    {{input type="text" value="hello" size="50"}}
+  <form>
+    <div>
+      <label> Name </label>
+      {{input type="text" value=model.title size="50"}}
+    </div>
+    <div>
+      <label> Year... </label>
+      {{input type="text" value="" size="50"}}
+    </div>
+    <div>
+      <label> Score </label>
+      {{input type="text" value="" size="50"}}
+    </div>
+    <div>
+      <button >Add Movie</button>
+    </div>
+  </form>
 </div>
