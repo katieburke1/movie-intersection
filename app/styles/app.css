@@ -4,3 +4,8 @@
   margin-right: 80px;
   margin-left: 80px;
 }
+
+label{
+    width: 40px;
+    text-align: left;
+}
