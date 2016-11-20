@@ -15,9 +15,11 @@
         <td>{{movie.title}}</td>
         <td>{{movie.year}}</td>
         <td>{{movie.imdbrating}}</td>
+        <button {{action "deleteMovie" movie}}> Delete</button>
       </tr>
     {{/each}}
   </tbody>
 </table>
 </body>
+{{create-new-movie model=model createMovie="createMovie"}}
 {{outlet}}
