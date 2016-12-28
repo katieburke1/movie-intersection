@@ -1,0 +1,20 @@
+
+<div class="login-form">
+  <p>Please login</p>
+
+  <form {{action 'authenticate' on='submit'}}>
+
+  {{#if errorMessage}}
+    <p>{{errorMessage}}</p>
+  {{/if}}
+
+  <p>Username: {{input name="username" value=username}}</p>
+  <p>Password: {{input type="password" name="password" value=password}}</p>
+
+  <p>
+    <button {{action "submit"}}>Submit</button>
+    <button {{action "cancel"}}>Cancel</button>
+  </p>
+
+  </form>
+</div>

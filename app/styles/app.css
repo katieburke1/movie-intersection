@@ -9,3 +9,13 @@ label{
     width: 40px;
     text-align: left;
 }
+
+
+.login-form {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
