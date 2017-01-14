@@ -1,8 +1,10 @@
 
 <div class="login-form">
-  <p>Please login</p>
+
 
   <form {{action 'authenticate' on='submit'}}>
+
+  <h4>Please login</h4>
 
   {{#if errorMessage}}
     <p>{{errorMessage}}</p>
